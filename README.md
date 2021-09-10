@@ -1,2 +1,5 @@
 # utn-labcomII-practices
-Practica de Laboratorio de Computacion II
+
+Laboratorio de Computacion II - Practicas
+Ejercicios practicos de Laboratorio de Computacion II desarrollados:
+HTML CSS JavaScript
