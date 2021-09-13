@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina de perfil</title>
 </head>
+
 <body>
+
+    <h1>Formulario para datos personales</h1>
+    <form>
+        <pre>
+            <label for="tipop">Tipo de persona</label>
+            <input type="text" id="tipop" name="tipop" value="ESTUDIANTE">
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="email">Edad:</label>
+            <input type="text" id="edad" name="edad">
+            
+            Nacionalidad:
+            <select name="nacionalidad">
+                <option value="value1">Argentina</option>
+                <option value="value2">Chile</option>
+                <option value="value3">Brasil</option>
+                <option value="value4">Colombia</option>
+                <option value="value5">Venezuela</option>
+            </select>
+
+            Estado laboral:
+            <select name="estlaboral">
+                <option value="value1">Desempleado</option>
+                <option value="value2">En busqueda laboral</option>
+                <option value="value3">Trabajo part-time</option>
+                <option value="value4">Trabajo full-time</option>
+            </select>
     
+            <label for="gustosmusic">Gustos musicales:</label>
+            <input type="text" id="gustosmusic" name="gustosmusic">
+
+            Comida preferida:
+            <select name="comidapref">
+                <option value="value1">Pizza</option>
+                <option value="value2">Hamburguesas</option>
+                <option value="value3">Sushi</option>
+                <option value="value4">Chop suey</option>
+            </select>
+            
+            <input type="checkbox" value="checkbox">Recordarme</input>
+
+            <input type="submit" value="Enviar">
+        </pre>
+        </form>
 </body>
 </html>
