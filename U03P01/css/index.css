@@ -1,0 +1,81 @@
+html {
+  background-color: rgb(245, 245, 245);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #242424;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  color: #606060;
+  font-weight: 800;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 100px;
+  padding: 20px;
+  border: 2px solid blue;
+  max-width: 40%;
+  list-style: none;
+}
+
+li {
+  margin-left: 100px;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-weight: bold;
+  color: orange;
+  text-decoration-line: underline;
+}
+
+.edit {
+  color: green;
+}
+
+#verde {
+  color: green;
+}
+
+/* 1. Todos los elementos deben tener fuente de familia sans-serif. OK
+2. Titulo h1 con tamaño 24px, color #242424 y grosor 900. OK
+3. Titulo h2 con tamaño 20px, color #606060 y grosor 800. OK
+4. Los párrafos tamaño 14px. OK
+5. Los elementos de la lista deben tener fuente de familia monospace y tamaño 18px. OK
+6. Todos los links deben estar en negrita. OK
+7. Los links dentro de la lista deben ser color naranja y estar subrayados. OK
+8. Los párrafos deben tener un margen superior e inferior de 30px. OK
+9. La lista entera debe tener un margen a la izquierda de 100px y un padding de 20px. OK
+Además, agregarle un borde sólido de 2 pixeles, color azul. 
+10. Todos elementos dentro del elemento de lista de las provincias de Nequen y Rio
+Negro deben tener color verde (texto y link). OK
+11. La lista entera debe tener un ancho máximo de 40%. OK
+12. Aplicar fondo a todo el documento html, usando color expresado en RGB con valores
+245 en todos sus parámetros. OK
+13. Eliminar las viñetas de la lista. OK 
+14. Agregar 10 pixeles de espaciado interno a cada ítem de la lista.  OK
+15. Agregar un fondo a cada ítem de la lista cuando se le pasa el cursor de mouse por
+encima. El color del fondo debe ser en RGBA, aplicando valor 0 a los parámetros de
+color y 0.1 al parámetro de opacidad. OK */
