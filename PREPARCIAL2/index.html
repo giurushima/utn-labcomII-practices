@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../PREPARCIAL2/calc.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cambio dinero</title>
+  </head>
+  <body>
+  <div class="cent">
+  <fieldset>
+    <form>
+      <p>Ingrese cantidad de pesos argentinos:</p>
+      <input type="number" id="cantPesos" onchange="calcs()"></input>
+
+    <p>Seleccione tipo de moneda:</p>
+      <select name="tipoMoneda" id="tipoMoneda" onclick="valueSelect()">
+        <option>Seleccionar</option>
+        <option id="dolar" value="200">Dolar</option>
+        <option id="euro" value="150">Euro</option>
+      </select>
+    <p>
+    <button type="button" onclick="calculoMoneda()">Calcular costo</button>
+    <p>
+    <label id="resultadoTotal"></label>
+    </form>
+  </fieldset>
+
+  <fieldset>
+    <form>
+        <div>
+        <p>Ingrese nombre de moneda nueva:</p>
+        <input type="text" id="nombreNuevaMoneda" onchange="nombreNueva()"></input>
+        </div>
+        <div>
+        <p>Ingrese costo de conversion ARS:</p>
+        <input type="number" id="precioNuevaMoneda" onchange="precioNueva()"></input>
+        <p>
+        <button type="button" onclick="agregarMoneda()">Agregar moneda</button>    
+        <p>
+        </div>
+    </form>
+  </fieldset>
+  </div>
+  </body>
+</html>
